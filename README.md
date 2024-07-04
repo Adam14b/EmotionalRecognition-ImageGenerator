@@ -62,13 +62,13 @@
   
 ##### Критерии успеха:
 - Модель классификации и агрегации эмоций:
-	- $$F1-score_{Negative} * 100 \ge 80 $$, где
-	> - $$F1-score = \frac{2 * Presicion * Recall}{{Presicion + Recall}$$;
-	> - $$Precision = \frac{TruePositive}{TruePositive + FalsePositive}$$;
-	> - $$Recall = \frac{TruePositive}{TruePositive + FalseNegative}$$;
-	> - $$TruePositive $$- количество верно предсказанных значений положительного класса;
-	> - $$FalsePositive$$ - количество неверно предсказанных значений положительного класса;
-  	> - $$FalseNegative$$ - количество неверно предсказанных значений отрицательного класса.
+	- $$\text{F1-score}_{Negative} * 100 \ge 80\text{, где }$$
+	> - $$\text{F1-score} = \frac{2 * Presicion * Recall}{Presicion + Recall}$$
+	> - $$Precision = \frac{TruePositive}{TruePositive + FalsePositive}$$
+	> - $$Recall = \frac{TruePositive}{TruePositive + FalseNegative}$$
+	> - $$TruePositive \text{ - количество верно предсказанных значений положительного класса} $$
+	> - $$FalsePositive \text{ - количество неверно предсказанных значений положительного класса}$$
+  	> - $$FalseNegative \text{ - количество неверно предсказанных значений отрицательного класса}. $$
 	
 #### 1.3. Что входит в скоуп проекта/итерации, что не входит   
 
