@@ -64,8 +64,8 @@
 - Модель классификации и агрегации эмоций:
   	- Так как нужно избежать негативных эмоций от видеоконференции, именно предсказывание негативных эмоций и будет являться основной задачей модели, поэтому важно учитывать 	количество ложно положительных и ложно отрицательных предсказаний. В связи с вышеуказанными факторами и дисбалансом классов, была выбрана метрика ```F1-score```, 		умноженная на 100 для более явного представления в процентах.
   	
-	- $$\text{F1-score}_{Negative} * 100 \ge 80 \text{\\%, где:}$$
-	> - $$\text{F1-score} = \frac{2 * Presicion * Recall}{Presicion + Recall}$$
+	- $$\text{F1-score}_{Negative} \cdot 100 \ge 80 \text{\\%, где:}$$
+	> - $$\text{F1-score} = \frac{2 \cdot Presicion \cdot Recall}{Presicion + Recall}$$
 	> - $$Precision = \frac{TruePositive}{TruePositive + FalsePositive}$$
 	> - $$Recall = \frac{TruePositive}{TruePositive + FalseNegative}$$
 	> - $$TruePositive \text{ - количество верно предсказанных значений положительного класса} $$
