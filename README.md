@@ -215,7 +215,7 @@
   
 #### 4.1. Архитектура решения   
   
-[блок-схема принципы работы системы(https://github.com/Adam14b/EmotionalRecognition-ImageGenerator/blob/3b342c343bfefd64d71c342d9875820508f666a6/%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D1%8B%20%D0%B8%20%D0%B8%D0%BB%D0%BB%D1%8E%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D0%B8/%D0%B1%D0%BB%D0%BE%D0%BA-%D1%81%D1%85%D0%B5%D0%BC%D0%B0%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B.jpg)
+[блок-схема принципы работы системы](https://github.com/Adam14b/EmotionalRecognition-ImageGenerator/blob/3b342c343bfefd64d71c342d9875820508f666a6/%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D1%8B%20%D0%B8%20%D0%B8%D0%BB%D0%BB%D1%8E%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D0%B8/%D0%B1%D0%BB%D0%BE%D0%BA-%D1%81%D1%85%D0%B5%D0%BC%D0%B0%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B.jpg)
 
 ##### Этап 1:
 - система, состоящая из ```МКЭ``` и ```МГПИ``` запускается одновременно с началом видео-конференции;
