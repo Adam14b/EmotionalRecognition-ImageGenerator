@@ -260,7 +260,7 @@
 ##### Этап 8: 
 - ```МКЭ```('Конец видеоконференции'):
 	- по завершению видеоконференции модель начинает создавать [(отчет-таблицу)](https://github.com/Adam14b/EmotionalRecognition-ImageGenerator/blob/9f3f1534748363855a782029c96189b38de701d5/%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D1%8B%20%D0%B8%20%D0%B8%D0%BB%D0%BB%D1%8E%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D0%B8/%D0%BE%D1%82%D1%87%D0%B5%D1%82-%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B0.png), подсчитывая соотношения всех эмоций друг к другу(в процентах) по формулам:
-> - 'Общая удовлетворенность': $\frac{\frac{NeutralAmount}{2} + PositiveAmount}{\frac{NeutralAmount}{2} + PositiveAmount + NegativeAmount} \cdot 100\\%$ ($NeutralAmount$ имеют коэффициент ```0.5```, так как нейтральные эмоции в меньшей степени влияют на удовлетворенность клиента конференцией)
+> - 'Общая удовлетворенность': $\frac{\frac{NeutralAmount}{2} + PositiveAmount}{\frac{NeutralAmount}{2} + PositiveAmount + NegativeAmount} \cdot 100\\%$ ($NeutralAmount$ имеет коэффициент ```0.5```, так как нейтральные эмоции в меньшей степени влияют на удовлетворенность клиента конференцией)
 > - 'негативные эмоции': $\frac{NegativeAmount}{NeutralAmount + PositiveAmount + NegativeAmount} \cdot 100\\%$
 > - 'нейтральные эмоции': $\frac{NeutralAmount}{NeutralAmount + Positive_Amount + NegativeAmount} \cdot 100\\%$
 > - 'позитивные эмоции': $\frac{PositiveAmount}{NeutralAmount + PositiveAmount + NegativeAmount} \cdot 100\\%$
